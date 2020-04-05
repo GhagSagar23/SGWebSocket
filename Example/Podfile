@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SGWebSocket_Example' do
+  pod 'SGWebSocket', :path => '../'
+
+  target 'SGWebSocket_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
