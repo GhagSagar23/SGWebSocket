@@ -1,0 +1,16 @@
+PODS:
+  - SGWebSocket (0.1.0)
+
+DEPENDENCIES:
+  - SGWebSocket (from `../`)
+
+EXTERNAL SOURCES:
+  SGWebSocket:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SGWebSocket: 959e121bcbc4167bcf1bc9b65e79061a02f5f1d3
+
+PODFILE CHECKSUM: 0391cfc99f7671b94caa67afaed31d1942d7fcf2
+
+COCOAPODS: 1.9.0

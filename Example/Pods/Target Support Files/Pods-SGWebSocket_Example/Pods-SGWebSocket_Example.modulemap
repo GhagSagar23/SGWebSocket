@@ -1,0 +1,6 @@
+framework module Pods_SGWebSocket_Example {
+  umbrella header "Pods-SGWebSocket_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

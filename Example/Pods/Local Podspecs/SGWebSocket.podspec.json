@@ -1,0 +1,22 @@
+{
+  "name": "SGWebSocket",
+  "version": "0.1.0",
+  "summary": "A short description of SGWebSocket.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/GhagSagar23/SGWebSocket",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GhagSagar23": "sagar.ghag@thesunflowerlab.com"
+  },
+  "source": {
+    "git": "https://github.com/GhagSagar23/SGWebSocket.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SGWebSocket/Classes/**/*"
+}
