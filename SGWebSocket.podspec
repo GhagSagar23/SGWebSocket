@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SGWebSocket'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SGWebSocket.'
+  s.summary          = 'SGWebSocket is a wrapper library of SocketRocket by Facebook.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'SGWebSocket is a client side wrapper library for using WebSocket into your application. SGWebSocket inherits SocketRocket by Facebook.'
                        DESC
 
   s.homepage         = 'https://github.com/GhagSagar23/SGWebSocket'
@@ -26,11 +26,15 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GhagSagar23' => 'sagar.ghag@thesunflowerlab.com' }
   s.source           = { :git => 'https://github.com/GhagSagar23/SGWebSocket.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://www.instagram.com/sagar.ghag23/'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SGWebSocket/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      'ios': '12.0'
+  }
   
   # s.resource_bundles = {
   #   'SGWebSocket' => ['SGWebSocket/Assets/*.png']
@@ -39,4 +43,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SocketRocket'
 end

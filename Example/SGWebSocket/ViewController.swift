@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SGWebSocket
 
 class ViewController: UIViewController {
 
