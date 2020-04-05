@@ -1,6 +1,8 @@
+platform :ios, '12.0'
 use_frameworks!
 
 target 'SGWebSocket_Example' do
+  pod 'SocketRocket'
   pod 'SGWebSocket', :path => '../'
 
   target 'SGWebSocket_Tests' do

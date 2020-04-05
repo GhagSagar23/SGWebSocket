@@ -1,8 +1,8 @@
 {
   "name": "SGWebSocket",
   "version": "0.1.0",
-  "summary": "A short description of SGWebSocket.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "SGWebSocket is a wrapper library of SocketRocket by Facebook.",
+  "description": "'SGWebSocket is a client side wrapper library for using WebSocket into your application. SGWebSocket inherits SocketRocket by Facebook.'",
   "homepage": "https://github.com/GhagSagar23/SGWebSocket",
   "license": {
     "type": "MIT",
@@ -15,8 +15,16 @@
     "git": "https://github.com/GhagSagar23/SGWebSocket.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://www.instagram.com/sagar.ghag23/",
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
-  "source_files": "SGWebSocket/Classes/**/*"
+  "source_files": "Source/**/*.swift",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "SocketRocket": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

@@ -8,6 +8,7 @@
 
 import UIKit
 import SGWebSocket
+import SocketRocket
 
 class ViewController: UIViewController {
 

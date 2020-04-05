@@ -1,16 +1,24 @@
 PODS:
-  - SGWebSocket (0.1.0)
+  - SGWebSocket (0.1.0):
+    - SocketRocket
+  - SocketRocket (0.5.1)
 
 DEPENDENCIES:
   - SGWebSocket (from `../`)
+  - SocketRocket
+
+SPEC REPOS:
+  trunk:
+    - SocketRocket
 
 EXTERNAL SOURCES:
   SGWebSocket:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SGWebSocket: 959e121bcbc4167bcf1bc9b65e79061a02f5f1d3
+  SGWebSocket: 0437daaa135bfd79a665a7c51a8e13dc50f75059
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: 0391cfc99f7671b94caa67afaed31d1942d7fcf2
+PODFILE CHECKSUM: 625964a48657fbaa7982c0306390335d477612f8
 
 COCOAPODS: 1.9.0
